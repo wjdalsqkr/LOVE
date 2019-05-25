@@ -1,0 +1,23 @@
+html {
+     background-color:black;
+      }
+body{
+      background-color: papayawhip;
+      margin: 0 225;
+}
+.image{
+      height:auto;
+      max-width: 800px;
+      animation: fadein 5s;
+}
+@keyframes fadein{
+      from{opacity: 0;}
+      to{opacity: 1;}
+}
+p, h1, h2{
+      margin: 16px 35px;
+}
+img{
+      display: block;
+      margin: 0px auto;
+}
